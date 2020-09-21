@@ -16,6 +16,24 @@
 To get a local copy up and running follow these simple example steps:
 
 - Clone this repository into your local machine.
+- Run:
+
+```bash
+  $ gem install bundler
+```
+
+- Run:
+
+```bash
+  $ bundle install
+```
+
+- Run
+
+```bash
+  $ rails db:migrate
+```
+
 - Access the New User creation view by typing this in your command line:
 
 ```bash
@@ -25,6 +43,8 @@ To get a local copy up and running follow these simple example steps:
 - Enter in your web browser address bar:
 
     localhost:3000
+
+- Play with the app!
 
 ### Validators
 
