@@ -1,4 +1,7 @@
-<%= form_for @user do |f| %>
+<%= render 'form' %>
+
+<!--
+ <%= form_for @user do |f| %>
   <%= f.label :username, "Username:" %>
   <%= f.text_field :username, placeholder:"Username here:" %>
   <br>
@@ -10,9 +13,11 @@
   <br>
   <br>
   <%= f.submit %>
-<% end %>
+<% end %> 
+-->
 
-<!-- <%= form_tag("/users", method: "POST") do %>
+<!--
+<%= form_tag("/users", method: "POST") do %>
   <%= label_tag(:username, "Username:") %>
   <%= text_field_tag(:username) %>
   <br>
@@ -27,7 +32,8 @@
 <% end %>
 -->
 
-<!-- <form action="/users/" method="POST" accept-charset="UTF-8">
+<!--
+<form action="/users/" method="POST" accept-charset="UTF-8">
   <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
 
   <label for="user[username]">Username:</label>
