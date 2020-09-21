@@ -18,7 +18,6 @@ class UsersController < ApplicationController
   end
 
   def edit
-    console
     @user = User.find(params[:id])
   end
 
